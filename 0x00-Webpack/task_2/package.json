@@ -19,12 +19,7 @@
   },
   "dependencies": {
     "jquery": "^3.6.0",
-<<<<<<< HEAD
     "lodash": "^4.17.21"
   },
   "description": ""
-=======
-    "lodash": "^4.17.21",
-  }
->>>>>>> 31e17164830f1b5bf4cf2ba8253b0fce6a951b46
 }
