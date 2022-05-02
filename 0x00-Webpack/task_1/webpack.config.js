@@ -1,8 +1,10 @@
-import { resolve } from 'path';
+const path = require('path');
 
-export const mode = 'production';
-export const entry = './js/dashboard_main.js';
-export const output = {
-    path: resolve(__dirname, 'public'),
+module.exports = {
+  mode: 'production',
+  entry: './js/dashboard_main.js',
+  output: {
+    path: path.resolve(__dirname, 'public'),
     filename: 'bundle.js',
+  },
 };
