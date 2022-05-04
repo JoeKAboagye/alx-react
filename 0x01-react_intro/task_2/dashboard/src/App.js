@@ -14,7 +14,8 @@ function App() {
 				<section className='form-inputs'>
 					<section className='input'>
 						<label htmlFor='email'>Email:</label>
-						<input type='email' name='email' id='email' />
+						<input type='email' name='email' id='email' 
+						placeholder='you@example.com'/>
 					</section>
 					<section className='input'>
 						<label htmlFor='password'>Password: </label>

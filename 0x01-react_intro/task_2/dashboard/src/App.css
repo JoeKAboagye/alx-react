@@ -35,3 +35,9 @@
 	text-align: center;
 	font-style: italic;
 }
+
+.form-inputs {
+	display: flex;
+	align-items: stretch;
+	gap: 5rem;
+}
