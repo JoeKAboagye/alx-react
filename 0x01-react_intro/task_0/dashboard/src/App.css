@@ -14,7 +14,7 @@
 	display: flex;
 	align-items: center;
 	padding: var(--App-padding);
-	border-bottom: var(---App-border-bottom);
+	border-bottom: var(--App-border-bottom);
 }
 
 .App-header img {
