@@ -1,5 +1,5 @@
-import React from 'react';
-import PropTypes from 'prop-types';
+import React from "react";
+import PropTypes from "prop-types";
 
 function NotificationItem({ type, html, value }) {
   let li;
@@ -14,8 +14,8 @@ function NotificationItem({ type, html, value }) {
 }
 
 NotificationItem.defaultProps = {
-  type: 'default',
-  value: '',
+  type: "default",
+  value: "",
   html: {},
 };
 
