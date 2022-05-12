@@ -1,12 +1,12 @@
-import React, { Fragment } from "react";
-import PropTypes from "prop-types";
+import React, { Fragment } from 'react';
+import PropTypes from 'prop-types';
 
 const CourseListRow = ({ isHeader, textFirstCell, textSecondCell }) => {
   let tr = undefined;
 
   if (isHeader === true) {
     if (textSecondCell === null) {
-      tr = <th colSpan="2">{textFirstCell}</th>;
+      tr = <th colSpan='2'>{textFirstCell}</th>;
     } else {
       tr = (
         <Fragment>
